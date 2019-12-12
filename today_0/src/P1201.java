@@ -17,5 +17,6 @@ public class P1201 {
             }
         }
         System.out.println(num_sum);
+        cin.close();
     }
 }
