@@ -10,13 +10,13 @@ public class P1201 {
         Scanner cin = new Scanner(System.in);
         int m = cin.nextInt();
         int n = cin.nextInt();
-        int num_sum = 0;
+        int num = 0;
         for(int i=m;i<=n;i++){
             if(i%3==0 && i%5==0){
-                num_sum++;
+                num++;
             }
         }
-        System.out.println(num_sum);
+        System.out.println(num);
         cin.close();
     }
 }
